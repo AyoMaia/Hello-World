@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Wold</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <section class="first-section">
+        <div class="box-helloworld">
+            <h1>Hello World</h1>
+        </div>
+    </section>
+    <section class="second-section">
+        <div class="cards">
+            <h2>Estruturas de Textos</h2>
+            <h3>Em HTML, a estrutura de texto refere-se à forma como o conteúdo textual é organizado e apresentado em uma página da web. Isso envolve o uso de diferentes elementos HTML para definir e estruturar o texto de maneira significativa e acessível. </h3>
+
+            <p class="content">
+
+            1. <span>h1, h2, h3, ..., h6</span>: São usados para criar títulos e subtítulos, sendo o <span>h1</span> o mais importante e o <span>h6</span> o menos importante. Eles também ajudam na estruturação e acessibilidade do conteúdo. <br>
+                
+            2. <span>p</span>: Utilizado para criar parágrafos de texto. <br>
+                
+            3. <span>ul e ol</span>: <span>ul</span> é uma lista não ordenada, onde os itens são marcados com pontos; e <span>ol</span> é uma lista ordenada, onde os itens são numerados. <br>
+                
+                . <span>li</span>: Utilizado dentro de <span>ul</span> e <span>ol</span> para definir cada item da lista. <br>
+                
+            5. <span>blockquote</span>: Usado para citações longas ou blocos de texto destacados. <br>
+                
+            6. <span>pre</span> Mantém a formatação do texto exatamente como está no código-fonte, útil para exibir código ou texto formatado. <br>
+                
+            7. <span>hr</span>: Cria uma linha horizontal para dividir seções do texto. <br>
+                
+            8. <span>br</span> Utilizado para quebras de linha dentro de um parágrafo ou outro elemento. <br>
+                
+            Estes são apenas alguns dos elementos básicos para estruturar textos no HTML. A combinação desses elementos permite criar uma hierarquia clara e facilita a formatação e a apresentação do conteúdo em páginas da web.</p>
+
+
+            <div class="btn-box">
+                <button>
+                    <a href="https://www.alura.com.br/apostila-html-css-javascript/03CA-a-spec-html" target="black" >Ler mais</a>
+                </button>
+            </div>
+
+        </div>
+        <div class="cards">
+            <h2>Semanticas</h2>
+            <h3>Semântica em HTML refere-se à prática de atribuir significado e estrutura corretos aos elementos HTML para descrever adequadamente o conteúdo de uma página da web. Em outras palavras, trata-se de usar elementos HTML que expressem o significado e a função do conteúdo, em vez de apenas sua aparência visual.</h3>
+            <p class="content">
+
+                Quando você utiliza a semântica correta em HTML, está fornecendo informações adicionais sobre o conteúdo da página, não apenas para os usuários que a visualizam, mas também para os mecanismos de busca e outros dispositivos que podem estar acessando a página (como leitores de tela para deficientes visuais).
+
+                Por exemplo:
+
+                Em vez de usar um <span>div</span> genérico para agrupar uma seção de conteúdo, pode-se usar elementos semânticos como <span>header</span>, <span>nav</span>, <span>main</span>,<span> article</span>,<span> section</span> e <span>footer</span> para expressar claramente a estrutura da página.
+
+                Utilizar <span>h1</span> - <span>h6</span> para títulos e subtítulos em vez de apenas alterar o tamanho da fonte com CSS.
+
+                Utilizar <span>p</span> para parágrafos, <span>ul</span> e <span>ol</span> para listas, <span>blockquote</span> para citações, entre outros, conforme apropriado.
+
+                Ao usar semântica em HTML, você está não apenas melhorando a acessibilidade da sua página para usuários com diferentes necessidades e dispositivos, mas também contribuindo para uma melhor compreensão do conteúdo por parte dos motores de busca, o que pode influenciar positivamente a visibilidade e o ranking da sua página nos resultados de pesquisa.
+
+            </p>
+            <div class="btn-box">
+                <button>
+                    <a href="https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065" target="black">Ler mais</a>
+                </button>
+            </div>
+        </div>
+        <div class="cards">
+            <h2>Style</h2>
+            <h3>CSS, ou Cascading Style Sheets, é uma linguagem de estilo usada para descrever a apresentação visual de um documento HTML ou XML. Em outras palavras, enquanto o HTML define a estrutura e o conteúdo de uma página da web, o CSS controla sua aparência e estilo.</h3>
+
+            <p class="content" id="content">
+                Seletores: Os seletores CSS são usados para selecionar os elementos HTML aos quais as regras de estilo se aplicam. Eles podem ser baseados em elementos específicos, classes, IDs, atributos, etc.
+
+                Propriedades e Valores: As propriedades CSS definem as características de estilo que você deseja aplicar aos elementos selecionados, como cor, tamanho da fonte, margens, preenchimento, etc. Cada propriedade tem um valor associado que determina como essa propriedade será aplicada.
+            
+                Classes e IDs: Classes e IDs são atributos que podem ser adicionados a elementos HTML para identificá-los de forma única ou agrupá-los para aplicar estilos comuns a vários elementos.
+            
+                Cascata: O termo "cascata" em CSS refere-se à maneira como as regras de estilo são aplicadas e podem ser substituídas. As regras definidas em arquivos de estilo externos, estilos embutidos e estilos definidos inline são aplicados de acordo com a hierarquia e a especificidade do seletor.
+            
+                Box Model: O Box Model é um conceito fundamental em CSS que define como o espaço é distribuído ao redor e dentro de um elemento HTML. Ele consiste em conteúdo, preenchimento, borda e margem.
+            
+                Media Queries: As Media Queries são usadas para aplicar estilos diferentes com base em características específicas do dispositivo, como largura da tela, tipo de dispositivo, resolução, etc., permitindo criar designs responsivos que se adaptam a diferentes tamanhos de tela.
+            
+                Transições e Animações: CSS também permite criar efeitos de transição e animação para elementos HTML, adicionando interatividade e dinamismo às páginas da web.
+
+            </p>
+
+            <div class="btn-box">
+                <button class="btn" id="btn">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/What_is_CSS" target="black">Ler mais</a>
+                </button>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+<script src="/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</html>

@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-image: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first-section {
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-helloworld {
+    top: 50%;
+    left: 50%;
+    
+}
+
+.box-helloworld h1 {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+/*   ---   SECTION CARDS   ---   */
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*    ---   CARDS   ---   */
+
+.cards {
+    width: 450px;
+    height: 550px;
+    border-radius: 10px;
+    margin: 1rem;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.281);
+    border: 3px solid white;
+    transition: 0.5s ease-in;
+}
+
+.cards h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cards h3 {
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    font-size: 18px;
+    font-weight: 400;
+    height: 40%;
+    margin-top: 2rem;
+}
+
+.cards:hover {
+    background-color:rgba(255, 255, 255, 0.13);
+}
+
+
+
+
+/*   ---  BUTTON   ---   */
+
+
+
+.btn-box {
+    bottom: 0;
+}
+
+button {
+    background: #ffffffa2;
+    border: none;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    width: 120px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+  }
+  
+  span {
+    display: inline-block;
+    transform: skew(21deg);
+  }
+
+  a {
+    display: inline-block;
+    transform: skew(21deg);
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+  
+  button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: #104F5E;
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  button:hover a {
+    color: #fff;
+  }
+  
+  button:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+
+
+
+  /*   ---   CONTENT   ---   */
+
+
+  .content {
+    display: none;
+  }
+
+  .cards p {
+    color: whitesmoke;
+    margin-bottom: 2rem;
+  }
+
+  .content p {
+    font-weight: bold;
+  }
+
+
+
+
+
+
